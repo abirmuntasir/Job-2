@@ -12,7 +12,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="32dp"
         android:layout_marginBottom="24dp"
-        android:text="User Profile Registration"
         android:textSize="22sp"
         android:textStyle="bold" />
 

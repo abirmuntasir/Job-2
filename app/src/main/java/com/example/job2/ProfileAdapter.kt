@@ -27,6 +27,9 @@ class ProfileAdapter(
         fun bind(user: User) {
             binding.tvName.text = user.name
             binding.tvEmail.text = user.email
+            binding.tvPhone.text = user.phone
+            binding.tvAddress.text = user.address
+            binding.tvBio.text = user.bio
             binding.btnEdit.setOnClickListener { onEdit(user) }
             binding.btnDelete.setOnClickListener { onDelete(user) }
             binding.root.setOnClickListener { onClick(user) }
